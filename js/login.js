@@ -10,7 +10,7 @@ function login(event) {
         localStorage.setItem('loggedIn', 'true'); 
 
         // Redirige a index.html
-        window.location.href = "/index.html"; 
+        window.location.href = "index.html"; 
     } else { 
         alert('Por favor, complete ambos campos.'); 
     } 
